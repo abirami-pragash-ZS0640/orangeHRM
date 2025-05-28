@@ -17,7 +17,9 @@ public class LoginPage extends ElementUtils {
     private WebElement usernameTextBox;
 
     // Locators
-    private final By usernameField = By.name("username");
+    //private final By usernameField = By.name("username");
+
+    private final By usernameField = By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input");
     private final By passwordField = By.name("password");
     private final By loginButton   = By.cssSelector("button[type='submit']");
 

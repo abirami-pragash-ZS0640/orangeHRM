@@ -62,7 +62,7 @@ public class searchEmployeePage extends ElementUtils {
 
     public boolean isEmployeeResultVisible() {
         try {
-            By resultRow = By.xpath("//div[@class='oxd-table-body']//div[contains(text(), 'bala kumar') or contains(text(), '0303')]");
+            By resultRow = By.xpath("//div[@class='oxd-table-body']//div[contains(text(), 'bala kumar') or contains(text(), '123')]");
             waitForElementVisible(resultRow, 30);
             return driver.findElement(resultRow).isDisplayed();
         } catch (NoSuchElementException e) {
