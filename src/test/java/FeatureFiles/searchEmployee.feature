@@ -8,4 +8,4 @@ Feature: Search Employee Functionality
     Then Admin should see the employee details in the search results
     Examples:
      | employeeName | employeeId |
-     | bala kumar   | 123       |
+     | Rahul Das  | 123       |
